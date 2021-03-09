@@ -70,7 +70,7 @@ An example: h1 = 10, h2 = 10, bucketSize = 100.
 
 Commands and running remains the same. Input files can be found in [input_dir](diseaseAggregator/input_dir) directory, which is created by a [bash script](diseaseAggregator/create_infiles.sh).
 
-# Part3 - ServerClient
+# Part3 - serverClient
 
 <p>Purpose of this project is similar, as it were in part2. However, this time except processes communicating with named-pipes, we have also a multithread client and a multithread server.</p>
 
