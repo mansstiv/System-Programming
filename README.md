@@ -14,11 +14,11 @@ Due to the big amount of patient records entries, hash tables and red black tree
 ### How to run..
 There is a makefile that responds to the following commands:
 
-  1. make -> compile the program and produce the corresponding object files and the executable.
+  1. ```make``` -> compile the program and produce the corresponding object files and the executable.
 
-  2. make clean -> deletes the object files and executable that were created.
+  2. ```make clean``` -> deletes the object files and executable that were created.
 
-./diseaseMonitor -p patientRecordsFile -h1 diseaseHashtableNumOfEntries -h2 countryHashtableNumOfEntries -b bucketSize
+```./diseaseMonitor -p patientRecordsFile -h1 diseaseHashtableNumOfEntries -h2 countryHashtableNumOfEntries -b bucketSize```
 
 NOTE : bucketSize must be >= 24 (because bucket must have at least 1 bucketEntry and 1 pointer which sum up to 24 bytes)
 
