@@ -1,8 +1,8 @@
 # System-Programming
 
 ## Part1 
-*Purpose* of ths project is to implement a program, which based on an input file with patient records, can answer different questions about disease cases. 
-*Tests* knowledge on data structures and time complexity.
+<p>**Purpose** of ths project is to implement a program, which based on an input file with patient records, can answer different questions about disease cases.</p>
+<p>**Tests** knowledge on data structures and time complexity.</p>
 
 ### Input
 A [file](small.txt) with patient records entries. For example, a record could be ```889 Mary Smith COVID-2019 China 25-1-2019 27-1-2019```.
