@@ -5,7 +5,7 @@
 <p><b>Tests</b> knowledge on <b>data structures</b> and <b>time complexity</b>.</p>
 
 ## Input
-A [file](diseaseMonitor/small.txt) with patient records entries. For example, a record could be ```889 Mary Smith COVID-2019 China 25-1-2019 27-1-2019```.
+A [file](diseaseMonitor/small.txt) with patient records entries. A record could be ```889 Mary Smith COVID-2019 China 25-1-2019 27-1-2019```.
 
 ## Structures
 1. Hash Tables
