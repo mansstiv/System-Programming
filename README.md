@@ -68,4 +68,12 @@ An example: h1 = 10, h2 = 10, bucketSize = 100.
 
 <p><b>Test</b> knoledge on <b>low level calls</b> (fork/exec, read, write etc..) and on <b>inter process communication</b> via <b>pipes</b>.</p>
 
-Commands and running remains the same. Input files can be found in [input_dir] (diseaseAggregator/input_dir) directory, which is created by a [bash script](diseaseAggregator/create_infiles.sh).
+Commands and running remains the same. Input files can be found in [input_dir](diseaseAggregator/input_dir) directory, which is created by a [bash script](diseaseAggregator/create_infiles.sh).
+
+# Part3 - diseaseAggregator
+
+<p>Purpose of this project is similar, as it were in part2. However, this time except processes communicating with named-pipes, we have also a multithread client and a multithread server.</p>
+
+<p><b>Test</b> knoledge on <b>thread programming</b> and <b>network communication (TCP Protocol)</b>.
+
+Commands and running remains the same.
