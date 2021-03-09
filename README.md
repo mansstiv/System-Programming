@@ -66,7 +66,7 @@ There is a makefile that responds to the following commands:
 
 <p>Purpose of diseaseAggregator is similar as it were in Part 1. However this time instead of one process, we have multiple processes communicating via pipes, that work together to answer the questions given.</p>
 
-<p>Gained <b>knowledge</b> on <b>low level calls</b> (fork/exec, read, write etc..) and on <b>inter process communication</b> via <b>named pipes</b>.</p>
+<p>Gained <b>knowledge</b> on <b>low level I/O</b> (fork/exec, read, write etc..) and on <b>inter process communication</b> via <b>named pipes</b>.</p>
 
 Commands and running remains the same. Input files can be found in [input_dir](diseaseAggregator/input_dir) directory, which is created by a [bash script](diseaseAggregator/create_infiles.sh).
 
