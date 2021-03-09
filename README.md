@@ -26,7 +26,7 @@ There is a makefile that responds to the following commands:
 
 *NOTE* : bucketSize must be >= 24
 
-An example: h1 = 10, h2 = 10, bucketSize = 100.   
+* For example run: ```./diseaseMonitor -p small.txt -h1 10 -h2 10 -b 100```
 
 ## Commands
 
