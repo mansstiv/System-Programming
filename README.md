@@ -32,23 +32,32 @@ An example: h1 = 10, h2 = 10, bucketSize = 100.
 
 * ```/globalDiseaseStats [date1 date2]```
   * Aplication will print for each virus, the number of cases recorded in the system. If
-    given date1 date2 then the application will print for each virus, the number of cases they have
+    date1 date2 are given, then application will print for each virus, the number of cases they have
     recorded in the system within the time period [date1 ... date2].
 
 * ```/diseaseFrequency virusName [country] date1 date2```
   * If no country argument is given, application will print the virusName number for the disease
     cases recorded in the system during [date1 ... date2].
   * If country argument is given, application will print for virusName disease, the number of cases in
-    country recorded in space [date1 ... date2].
+    country recorded in time period [date1 ... date2].
 
 * ```/topk-Diseases k country [date1 date2]```
+  * Application will print for the country given, the top k diseases with most cases
+    in time period [date1 ... date2]. 
 
 * ```/topk-Countries k disease [date1 date2]```
+  * For the disease given, application will print the top k countries with the most cases in time period [date1 ... date2]. .
 
 * ```/insertPatientRecord recordID patientFirstName patientLastName diseaseID entryDate [exitDate]```
+  * Application will insert a new patient record, with the characteristics given (exitDate parameter is
+    optional).
 
 * ```/recordPatientExit recordID exitDate```
+  * Application will add exit date to patient record with id = recordID.
 
 * ```/numCurrentPatients [disease]```
+  * If disease argument is given, application will print the number of patients still being treated with
+    this disease. If no argument is given, application will print for every disease, the patients that are still being treated.
 
 * ```/exit```
+  * Exit program.
