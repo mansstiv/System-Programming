@@ -68,4 +68,4 @@ An example: h1 = 10, h2 = 10, bucketSize = 100.
 
 <p><b>Test</b> knoledge on <b>low level calls</b> (fork/exec, read, write etc..) and on <b>inter process communication</b> via <b>pipes</b>.</p>
 
-Commands and running remains the same. Input files can be found in input_dir directory, which is created by a [bash script](diseaseAggregator/create_infiles.sh).
+Commands and running remains the same. Input files can be found in (input_dir directory)[diseaseAggregator/input_dir], which is created by a [bash script](diseaseAggregator/create_infiles.sh).
