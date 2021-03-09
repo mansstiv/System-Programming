@@ -14,7 +14,7 @@ Due to the big amount of patient records entries, hash tables and red black tree
 ### How to run..
 There is a makefile that responds to the following commands:
 
-  1. ```make``` -> compile the program and produce the corresponding object files and the executable.
+  1. ```make``` -> compile the program and produce the corresponding object files and executable.
 
   2. ```make clean``` -> deletes the object files and executable that were created.
 
