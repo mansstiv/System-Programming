@@ -1,12 +1,15 @@
 # System-Programming
 
-## Part1
-Purpose of ths project is to implement a programm, which based on an input file, can extract informations and can answer different questions about virus cases. 
+## Part1 
+Purpose of ths project is to implement a program, which based on an input file, can extract informations and can answer different questions about disease cases. It mainly focuses on data structures and time complexity. 
+
+### Input
+A [file](small.txt) with patient records entries. For example, a record could be ```889 Mary Smith COVID-2019 China 25-1-2019 27-1-2019```.
 
 ### Structures
 1. Hash Tables
 2. Linked lists
-3. Rea d Black Trees
+3. Red Black Trees
 
 ### Why these structures?
 Due to the big amount of patient records entries, hash tables and red black trees can secure a small time complexity on performing specific queries.
