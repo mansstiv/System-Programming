@@ -2,7 +2,7 @@
 
 # Part1 - diseaseMonitor
 <p><b>Purpose</b> of this project is to implement a program, which based on an input file with patient records, can answer different questions about disease cases.</p>
-<p><b>Tests</b> knowledge on <b>data structures</b> and <b>time complexity</b>.</p>
+<p>Tests <b>knowledge</b> on <b>data structures</b> and <b>time complexity</b>.</p>
 
 ## Input
 A [file](diseaseMonitor/small.txt) with patient records entries. A record could be ```889 Mary Smith COVID-2019 China 25-1-2019 27-1-2019```.
@@ -66,7 +66,7 @@ An example: h1 = 10, h2 = 10, bucketSize = 100.
 
 <p>Purpose of diseaseAggregator is similar as it were in Part 1. However this time instead of one process, we have multiple processes communicating via pipes, that work together to answer the questions given.</p>
 
-<p><b>Gained</b> knowledge on <b>low level calls</b> (fork/exec, read, write etc..) and on <b>inter process communication</b> via <b>named pipes</b>.</p>
+<p>Gained <b>knowledge</b> on <b>low level calls</b> (fork/exec, read, write etc..) and on <b>inter process communication</b> via <b>named pipes</b>.</p>
 
 Commands and running remains the same. Input files can be found in [input_dir](diseaseAggregator/input_dir) directory, which is created by a [bash script](diseaseAggregator/create_infiles.sh).
 
@@ -74,4 +74,4 @@ Commands and running remains the same. Input files can be found in [input_dir](d
 
 <p>Purpose of this project is similar as it were in Part 2. However this time except multiple processes communicating with named-pipes, we have also a multithread client and a multithread server working together.</p>
 
-<p><b>Gained</b> knowledge on <b>thread</b> and <b>socket programming</b> and on <b>network communication (Server-Client model)</b>.</p>
+<p>Gained <b>knowledge</b> on <b>thread</b> and <b>socket programming</b> and on <b>network communication (Server-Client model)</b>.</p>
