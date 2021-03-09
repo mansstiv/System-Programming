@@ -1,7 +1,7 @@
 # System-Programming
 
 ## Part1 
-<p><b>Purpose</b> of ths project is to implement a program, which based on an input file with patient records, can answer different questions about disease cases.</p>
+<p><b>Purpose</b> of this project is to implement a program, which based on an input file with patient records, can answer different questions about disease cases.</p>
 <p><b>Tests</b> knowledge on data structures and time complexity.</p>
 
 ### Input
