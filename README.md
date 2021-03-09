@@ -72,6 +72,6 @@ Commands and running remains the same. Input files can be found in [input_dir](d
 
 # Part3 - serverClient
 
-<p>Purpose of this project is similar as it were in Part 2. However this time except multiple processes communicating with named-pipes, we have also a multithread client and a multithread server working together.</p>
+<p>Purpose of this project is similar as it were in Part 2. However this time except multiple processes communicating with named-pipes, a multithread client and a multithread server is added.</p>
 
 <p>Gained <b>knowledge</b> on <b>thread</b> and <b>socket programming</b> and on <b>network communication (Server-Client model)</b>.</p>
