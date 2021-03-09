@@ -1,21 +1,21 @@
-# System-Programming
+# System-Programming Projects
 
-## Part1 
+# Part1 - diseaseMonitor
 <p><b>Purpose</b> of this project is to implement a program, which based on an input file with patient records, can answer different questions about disease cases.</p>
 <p><b>Tests</b> knowledge on <b>data structures</b> and <b>time complexity</b>.</p>
 
-### Input
+## Input
 A [file](small.txt) with patient records entries. For example, a record could be ```889 Mary Smith COVID-2019 China 25-1-2019 27-1-2019```.
 
-### Structures
+## Structures
 1. Hash Tables
 2. Linked lists
 3. Red Black Trees
 
-### Why these structures?
+## Why these structures?
 Due to the big amount of patient records entries, hash tables and red black trees can secure a small time complexity on performing specific queries.
 
-### How to run..
+## How to run..
 There is a makefile that responds to the following commands:
 
   1. ```make``` -> compile the program and produce the corresponding object files and executable.
@@ -28,7 +28,7 @@ There is a makefile that responds to the following commands:
 
 An example: h1 = 10, h2 = 10, bucketSize = 100.   
 
-### Commands
+## Commands
 
 * ```/globalDiseaseStats [date1 date2]```
   * Print for each virus, the number of cases recorded in the system. If
