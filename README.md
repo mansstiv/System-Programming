@@ -64,7 +64,7 @@ An example: h1 = 10, h2 = 10, bucketSize = 100.
 
 # Part2 - diseaseAggregator
 
-<p>Purpose of diseaseAggregator is similar, as it were in Part1. However this time instead of one process we have multiple processes communicating via pipes, that cooperate to answer questions.</p>
+<p>Purpose of diseaseAggregator is similar as it were in Part 1. However this time instead of one process, we have multiple processes communicating via pipes, that work together to answer the questions given.</p>
 
 <p><b>Test</b> knoledge on <b>low level calls</b> (fork/exec, read, write etc..) and on <b>inter process communication</b> via <b>pipes</b>.</p>
 
@@ -72,6 +72,6 @@ Commands and running remains the same. Input files can be found in [input_dir](d
 
 # Part3 - serverClient
 
-<p>Purpose of this project is similar, as it were in part2. However, this time except processes communicating with named-pipes, we have also a multithread client and a multithread server.</p>
+<p>Purpose of this project is similar as it were in Part 2. However this time except multiple processes communicating with named-pipes, we have also a multithread client and a multithread server working together.</p>
 
 <p><b>Test</b> knoledge on <b>thread programming</b> and <b>network communication (TCP Protocol)</b>.</p>
