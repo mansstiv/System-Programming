@@ -1,0 +1,9 @@
+gcc -g -c main.c
+gcc -g -c patientRecord.c
+gcc -g -c RBTree.c
+gcc -g    -c -o list.o list.c
+gcc -g -c bucket.c
+gcc -g -c topk.c
+gcc -g -c helpFunc.c
+gcc -g -c mainFunc.c
+gcc -g -o diseaseMonitor main.o patientRecord.o RBTree.o list.o bucket.o topk.o helpFunc.o mainFunc.o
