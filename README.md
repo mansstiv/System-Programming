@@ -75,5 +75,3 @@ Commands and running remains the same. Input files can be found in [input_dir](d
 <p>Purpose of this project is similar, as it were in part2. However, this time except processes communicating with named-pipes, we have also a multithread client and a multithread server.</p>
 
 <p><b>Test</b> knoledge on <b>thread programming</b> and <b>network communication (TCP Protocol)</b>.</p>
-
-Commands and running remains the same.
