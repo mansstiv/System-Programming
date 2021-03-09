@@ -2,7 +2,7 @@
 
 ## Part1 
 <p><b>Purpose</b> of this project is to implement a program, which based on an input file with patient records, can answer different questions about disease cases.</p>
-<p><b>Tests</b> knowledge on data structures and time complexity.</p>
+<p><b>Tests</b> knowledge on <b>data structures</b> and <b>time complexity</b>.</p>
 
 ### Input
 A [file](small.txt) with patient records entries. For example, a record could be ```889 Mary Smith COVID-2019 China 25-1-2019 27-1-2019```.
@@ -31,8 +31,15 @@ An example: h1 = 10, h2 = 10, bucketSize = 100.
 ### Commands
 
 * ```/globalDiseaseStats [date1 date2]```
+  * Aplication will print for each virus, the number of cases recorded in the system. If
+    given date1 date2 then the application will print for each virus, the number of cases they have
+    recorded in the system within the time period [date1 ... date2].
 
 * ```/diseaseFrequency virusName [country] date1 date2```
+  * If no country argument is given, application will print the virusName number for the disease
+    cases recorded in the system during [date1 ... date2].
+  * If country argument is given, application will print for virusName disease, the number of cases in
+    country recorded in space [date1 ... date2].
 
 * ```/topk-Diseases k country [date1 date2]```
 
