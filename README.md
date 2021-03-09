@@ -24,7 +24,7 @@ There is a makefile that responds to the following commands:
 
 ```./diseaseMonitor -p patientRecordsFile -h1 diseaseHashtableNumOfEntries -h2 countryHashtableNumOfEntries -b bucketSize```
 
-NOTE : bucketSize must be >= 24 (because bucket must have at least 1 bucketEntry and 1 pointer which sum up to 24 bytes)
+*NOTE* : bucketSize must be >= 24
 
 An example: h1 = 10, h2 = 10, bucketSize = 100.   
 
