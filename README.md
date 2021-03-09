@@ -60,3 +60,12 @@ An example: h1 = 10, h2 = 10, bucketSize = 100.
 
 * ```/exit```
   * Exit program.
+
+
+# Part2 - diseaseAggregator
+
+<p>Purpose of diseaseAggregator is similar, as it were in Part1. However this time instead of one process we have multiple processes communicating via pipes, that cooperate to answer questions.</p>
+
+<p><b>Test</b> knoledge</p> on <b>low level calls</b> (fork/exec, read, write etc..) and on <b>inter process communication</b> via <b>pipes</b>.
+
+<p> Commands and and running remains the same. Input files can be found in input_dir directory, which is created by a [bash script](diseaseAggregator/create_infiles.sh).
