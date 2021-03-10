@@ -64,14 +64,14 @@ There is a makefile that responds to the following commands:
 
 # Part2 - diseaseAggregator
 
-<p>Purpose of diseaseAggregator is similar as it were in Part 1. However this time instead of one process, we have multiple processes communicating via pipes, that work together to answer the questions given.</p>
+<p>Purpose of diseaseAggregator is similar as it were in Part 1. However this time instead of one process, we have multiple processes communicating with named pipes, that work together to answer the questions given.</p>
 
-<p>Gained <b>knowledge</b> on <b>low level I/O</b> (fork/exec, read, write etc..) and on <b>inter process communication</b> via <b>named pipes</b>.</p>
+<p>Gained <b>knowledge</b> on <b>low level I/O</b> (fork/exec, read, write etc..) and on <b>inter process communication</b>.</p>
 
 Commands and running remains the same. Input files can be found in [input_dir](diseaseAggregator/input_dir) directory, which is created by a [bash script](diseaseAggregator/create_infiles.sh).
 
 # Part3 - serverClient
 
-<p>Purpose of this project is similar as it were in Part 2. However this time except multiple processes communicating with named-pipes, a multithread client and a multithread server is also implemented.</p>
+<p>Purpose of this project is similar as it were in Part 2. However this time except multiple processes communicating with named-pipes, a multithreading client-server model is also implemented.</p>
 
 <p>Gained <b>knowledge</b> on <b>thread</b> and <b>socket programming</b> and on <b>network communication (Client-Server model)</b>.</p>
